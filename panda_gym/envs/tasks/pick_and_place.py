@@ -13,8 +13,8 @@ class PickAndPlace(Task):
         sim: PyBullet,
         reward_type: str = "sparse",
         distance_threshold: float = 0.05,
-        goal_xy_range: float = 0.3,
-        goal_z_range: float = 0.2,
+        goal_xy_range: float = 0.1,
+        goal_z_range: float = 0.0,
         obj_xy_range: float = 0.3,
     ) -> None:
         super().__init__(sim)
